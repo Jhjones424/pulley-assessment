@@ -1,3 +1,9 @@
+# Challenge Complete
+
+Hey Pulley team 👋 thanks for the fun challenge. This was my first time using Go, but the challenge was reasonable even for a novice at the language and for that I'm very appreciative. 
+
+As for my changes, I felt like the easiest way to communicate them would be with comments on this pull request so you can see both my changes and thoughts. 
+
 # ShakeSearch Challenge
 
 Welcome to the Pulley Shakesearch Challenge! This repository contains a simple web app for searching text in the complete works of Shakespeare.
