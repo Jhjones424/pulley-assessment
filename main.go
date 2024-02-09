@@ -49,8 +49,6 @@ func handleSearch(searcher Searcher) func(w http.ResponseWriter, r *http.Request
 			w.Write([]byte("missing search query in URL params"))
 			return
 		}
-		fmt.Printf("query: %s", query)
-		// lowerCaseQuery := strings.ToLower(query[0])
 		results := searcher.Search(query[0])
 		buf := &bytes.Buffer{}
 		enc := json.NewEncoder(buf)
